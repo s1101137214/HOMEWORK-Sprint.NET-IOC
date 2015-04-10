@@ -12,20 +12,20 @@ namespace KuasCore.Dao.Impl
 
         public IList<Employee> GetAllEmployees()
         {
-            List<Employee> companies = new List<Employee>();
+            List<Employee> employee = new List<Employee>();
 
             Employee Employee1 = new Employee();
             Employee1.Id = "haha";
             Employee1.Name = "叡揚資訊!!";
             Employee1.Age = 7;
-            companies.Add(Employee1);
+            employee.Add(Employee1);
 
             Employee Employee2 = new Employee();
             Employee2.Id = "KUAS";
             Employee2.Name = "高雄應用科技大學";
-            companies.Add(Employee2);
+            employee.Add(Employee2);
 
-            return companies;
+            return employee;
         }
 
         public Employee GetEmployeeById(string id)

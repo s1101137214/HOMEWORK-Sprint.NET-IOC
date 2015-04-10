@@ -7,7 +7,6 @@
   </object>
   
   <object id="employeeDao" type="KuasCore.Dao.Impl.NewemployeeDao, KuasCore">
-
   </object>
 
 </objects>
